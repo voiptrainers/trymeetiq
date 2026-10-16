@@ -1,0 +1,1 @@
+import{n as e,r as t,t as n}from"./index-CFe7ocda.js";var r=t(e()),i=n();function a(){return(0,r.useEffect)(()=>{window.location.href=`/index.html`},[]),(0,i.jsx)(`div`,{className:`flex min-h-screen items-center justify-center`,style:{backgroundColor:`#fcfbf8`},children:(0,i.jsx)(`p`,{children:`Redirecting to demo...`})})}export{a as component};

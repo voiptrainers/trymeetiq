@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://trymeetiq.com/sitemap.xml

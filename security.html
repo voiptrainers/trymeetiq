@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Security at Try Meet IQ</title>
+<meta name="description" content="How Try Meet IQ protects scheduling data: HTTPS/TLS encryption, access control, Google OAuth token protection, infrastructure security and data privacy commitments.">
+<meta name="author" content="Sinisys Software Pvt Ltd">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#16a34a">
+<link rel="canonical" href="https://trymeetiq.com/security.html">
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Try Meet IQ">
+<meta property="og:url" content="https://trymeetiq.com/security.html">
+<meta property="og:title" content="Security at Try Meet IQ">
+<meta property="og:description" content="How Try Meet IQ protects scheduling data: HTTPS/TLS encryption, access control, Google OAuth token protection, infrastructure security and data privacy commitments.">
+<meta property="og:image" content="https://trymeetiq.com/assets/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="en_US">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Security at Try Meet IQ">
+<meta name="twitter:description" content="How Try Meet IQ protects scheduling data: HTTPS/TLS encryption, access control, Google OAuth token protection, infrastructure security and data privacy commitments.">
+<meta name="twitter:image" content="https://trymeetiq.com/assets/og-image.jpg">
+
+<link rel="icon" href="assets/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="assets/logo.png">
+<link rel="stylesheet" href="css/style.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Security at Try Meet IQ",
+  "url": "https://trymeetiq.com/security.html",
+  "description": "How Try Meet IQ protects scheduling data: HTTPS/TLS encryption, access control, Google OAuth token protection, infrastructure security and data privacy commitments.",
+  "inLanguage": "en",
+  "isPartOf": { "@type": "WebSite", "name": "Try Meet IQ", "url": "https://trymeetiq.com/" },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Try Meet IQ",
+    "legalName": "Sinisys Software Pvt Ltd",
+    "url": "https://trymeetiq.com/",
+    "logo": "https://trymeetiq.com/assets/logo.png",
+    "email": "info@trymeetiq.com"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://trymeetiq.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Security at Try Meet IQ", "item": "https://trymeetiq.com/security.html" }
+  ]
+}
+</script>
+<style>
+  .legal-body h1 { font-size: 28px; margin-bottom: 4px; }
+  .legal-body .updated { color: #666; font-size: 14px; margin-bottom: 32px; }
+  .legal-body h2 { font-size: 19px; margin-top: 36px; border-bottom: 1px solid #e5e5e5; padding-bottom: 8px; }
+  .legal-body p, .legal-body li { font-size: 15px; }
+  .legal-body ul { padding-left: 22px; }
+  .legal-body li { margin-bottom: 6px; }
+  .legal-body a { color: #16A34A; }
+  .legal-body .callout { background: #F0FDF4; border: 1px solid #BBF7D0; border-radius: 8px; padding: 16px 20px; margin: 16px 0; }
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="container">
+    <nav class="nav" aria-label="Main">
+      <a class="brand" href="index.html">
+        <img class="brand-logo" src="assets/logo.png" alt="Try Meet IQ" width="150" height="150">
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-label="Toggle navigation">
+        <i data-lucide="menu" aria-hidden="true"></i>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html#product">Product</a></li>
+        <li><a href="integrations/google-calendar/index.html">Integrations</a></li>
+        <li><a href="index.html#pricing">Pricing</a></li>
+        <li><a href="index.html#faq">FAQ</a></li>
+        <li><a href="security.html">Security</a></li>
+        <li><a href="https://www.youtube.com/@ChatIQAutomationsHindi" target="_blank" rel="noopener">Videos</a></li>
+        <li><a href="index.html#contact">Contact Us</a></li>
+      </ul>
+      <div class="nav-actions">
+        <a class="btn btn-ghost" href="https://login.trymeetiq.com/">Log in</a>
+        <a class="btn btn-primary" href="https://login.trymeetiq.com/">Sign up free</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="page-hero">
+    <div class="container">
+      <p class="breadcrumb"><a href="index.html">Home</a> <span aria-hidden="true">/</span> Security</p>
+      <h1>Security</h1>
+      <p>How Try Meet IQ protects your data and your invitees' data.</p>
+    </div>
+  </section>
+
+  <section class="legal">
+    <div class="container legal-layout">
+      <aside class="legal-toc" aria-label="On this page">
+        <strong>On this page</strong>
+        <ul>
+          <li><a href="#encryption">Encryption</a></li>
+          <li><a href="#access-control">Access control</a></li>
+          <li><a href="#google-oauth-amp-calendar-access">Google OAuth &amp; Calendar access</a></li>
+          <li><a href="#infrastructure">Infrastructure</a></li>
+          <li><a href="#data-privacy">Data privacy</a></li>
+          <li><a href="#deleting-your-data">Deleting your data</a></li>
+          <li><a href="#reporting-a-security-issue">Reporting a security issue</a></li>
+          <li><a href="#contact-us">Contact us</a></li>
+        </ul>
+      </aside>
+      <div class="legal-body">
+
+<p class="updated">Last updated: August 12, 2026</p>
+
+<p>This page describes how TrymeetIQ, operated by Sinisys Software Pvt Ltd, protects your data and your invitees' data. We've kept this specific to what's actually in place, rather than generic claims.</p>
+
+<h2 id="encryption">Encryption</h2>
+<ul>
+  <li><strong>In transit:</strong> every connection to TrymeetIQ — your browser, the API, and calls to Google's APIs — is encrypted with TLS/HTTPS.</li>
+  <li><strong>At rest:</strong> Google OAuth access and refresh tokens are encrypted at rest using AES-256 before being stored in our database — never stored in plain text.</li>
+  <li><strong>Passwords:</strong> if you use a password to sign in (as opposed to signing in with Google), it's hashed with scrypt, a memory-hard hashing algorithm — we never store or log the plain password.</li>
+</ul>
+
+<h2 id="access-control">Access control</h2>
+<ul>
+  <li>Every request is authenticated with a signed session token; sessions can be invalidated instantly (for example, on a password reset) without waiting for the token to expire naturally.</li>
+  <li>Every database query is scoped to the authenticated user's own data — one host's bookings, contacts, and settings are never reachable by another host's account.</li>
+  <li>Administrative access (the admin panel) is gated by a database-backed role check performed fresh on every request, not cached in the session token, so admin access can be revoked immediately.</li>
+</ul>
+
+<h2 id="google-oauth-amp-calendar-access">Google OAuth &amp; Calendar access</h2>
+<ul>
+  <li>We request only the Google Calendar scope needed to check your availability and create meeting events — never Gmail, Drive, Contacts, or any other Google service.</li>
+  <li>OAuth tokens are encrypted at rest (see Encryption, above) and are deleted immediately when you disconnect Google Calendar, connect a different Google account, or delete your TrymeetIQ account.</li>
+  <li>Google Calendar push notifications are verified with a constant-time comparison against a per-account secret token, so a spoofed notification can't trigger a sync for the wrong account.</li>
+</ul>
+
+<h2 id="infrastructure">Infrastructure</h2>
+<ul>
+  <li>TrymeetIQ runs on a dedicated virtual private server with an isolated database — your data is not co-mingled with other unrelated services.</li>
+  <li>Database backups run automatically every night, retained for 14 days, in addition to whole-server snapshots taken by our infrastructure provider.</li>
+  <li>TLS certificates are issued and auto-renewed via Let's Encrypt.</li>
+  <li>Outbound webhook deliveries are protected against SSRF (server-side request forgery) — destination addresses are resolved and validated immediately before every dispatch, closing the gap a DNS-rebinding attack would otherwise exploit.</li>
+</ul>
+
+<h2 id="data-privacy">Data privacy</h2>
+<p>We do not sell your data or Google user data, use it for advertising, or use it to train or improve AI/ML models. Our use of Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank" rel="noreferrer">Google API Services User Data Policy</a>. See our <a href="/privacy-policy.html">Privacy Policy</a> for the complete picture.</p>
+
+<h2 id="deleting-your-data">Deleting your data</h2>
+<div class="callout">
+  You can permanently delete your account and all associated data yourself, instantly: log in → <strong>Settings</strong> → <strong>Delete account</strong>. No waiting, no email required.
+</div>
+<p>If you're unable to log in, email <a href="mailto:privacy@trymeetiq.com">privacy@trymeetiq.com</a> and we'll complete deletion within 30 days. Full details are on our <a href="/data-deletion.html">Data Deletion</a> page.</p>
+
+<h2 id="reporting-a-security-issue">Reporting a security issue</h2>
+<p>If you believe you've found a security vulnerability in TrymeetIQ, please email <a href="mailto:privacy@trymeetiq.com">privacy@trymeetiq.com</a> with details. We ask that you give us a reasonable opportunity to investigate and address any issue before disclosing it publicly.</p>
+
+<h2 id="contact-us">Contact us</h2>
+<p>
+  Sinisys Software Pvt Ltd<br>
+  Chennai, Tamil Nadu, India<br>
+  <a href="mailto:info@trymeetiq.com">info@trymeetiq.com</a>
+</p>
+
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-about">
+        <a class="brand" href="index.html">
+          <img class="brand-logo" src="assets/logo.png" alt="Try Meet IQ" width="150" height="150">
+        </a>
+        <p>Smarter scheduling. Better meetings. Try Meet IQ is a product of Sinisys Software Pvt Ltd, Chennai, India.</p>
+      </div>
+      <div>
+        <h4>Product</h4>
+        <ul>
+          <li><a href="index.html#product">Scheduling automation</a></li>
+          <li><a href="integrations/google-calendar/index.html">Google Calendar integration</a></li>
+          <li><a href="index.html#pricing">Pricing</a></li>
+          <li><a href="https://login.trymeetiq.com/">Log in</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="terms-of-service.html">Terms of Service</a></li>
+          <li><a href="privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="cookie-policy.html">Cookie Policy</a></li>
+          <li><a href="data-deletion.html">Data Deletion</a></li>
+          <li><a href="security.html">Security</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:info@trymeetiq.com">info@trymeetiq.com</a></li>
+          <li><a href="mailto:privacy@trymeetiq.com">privacy@trymeetiq.com</a></li>
+          <li>Chennai – 600061, Tamil Nadu, India</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-year>2026</span> Try Meet IQ. All rights reserved.</span>
+      <span class="footer-legal">
+        <a href="privacy-policy.html">Privacy</a>
+        <a href="terms-of-service.html">Terms</a>
+        <a href="cookie-policy.html">Cookies</a>
+        <a href="security.html">Security</a>
+      </span>
+    </div>
+  </div>
+</footer>
+
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js" defer></script>
+<script src="js/main.js" defer></script>
+</body>
+</html>
